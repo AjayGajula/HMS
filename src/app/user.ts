@@ -3,8 +3,18 @@ export class User {
   emailId: string;
   firstName: string;
   lastName: string;
-  mobileNumber:string;
+  mobileNumber: string;
   password: string;
 
-  constructor() {}
+  constructor() { }
+}
+export class Booking {
+  fromDate: string;
+  toDate: Date;
+  noOfRoom: number;
+  noOfGuest: number;
+  room: string;
+  name: string;
+
+  constructor() { }
 }
